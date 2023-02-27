@@ -1,0 +1,52 @@
+{
+  "secao": [
+    {
+      "filme": "Avatar",
+      "sala": "1",
+      "horario": "15",
+      "data": "27",
+      "dublado": "nao",
+      "id": 1
+    },
+    {
+      "filme": "Exorcista",
+      "sala": "2",
+      "horario": "15",
+      "data": "27",
+      "dublado": "sim",
+      "id": 2
+    },
+    {
+      "filme": "Avatar",
+      "sala": "1",
+      "horario": "17",
+      "data": "28",
+      "dublado": "sim",
+      "id": 3
+    },
+    {
+      "filme": "Exorcista",
+      "sala": "2",
+      "horario": "17",
+      "data": "28",
+      "dublado": "sim",
+      "id": 4
+    },
+    {
+      "filme": "Avatar",
+      "sala": "1",
+      "horario": "19",
+      "data": "29",
+      "dublado": "nao",
+      "id": 5
+    },
+    {
+      "filme": "Exorcista",
+      "sala": "2",
+      "horario": "19",
+      "data": "29",
+      "dublado": "sim",
+      "id": 6
+    }
+  ]
+}
