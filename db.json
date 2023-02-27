@@ -1,0 +1,75 @@
+{
+  "secao": [
+    {
+      "idFilme": "1",
+      "sala": "1",
+      "horario": "15",
+      "data": "27",
+      "dublado": "nao",
+      "d3": "nao",
+      "id": 1
+    },
+    {
+      "idFilme": "2",
+      "sala": "2",
+      "horario": "15",
+      "data": "27",
+      "dublado": "sim",
+      "d3": "nao",
+      "id": 2
+    },
+    {
+      "idFilme": "1",
+      "sala": "1",
+      "horario": "17",
+      "data": "28",
+      "dublado": "sim",
+      "d3": "nao",
+      "id": 3
+    },
+    {
+      "idFilme": "2",
+      "sala": "2",
+      "horario": "17",
+      "data": "28",
+      "dublado": "sim",
+      "d3": "nao",
+      "id": 4
+    },
+    {
+      "idFilme": "1",
+      "sala": "1",
+      "horario": "19",
+      "data": "31",
+      "dublado": "nao",
+      "d3": "nao",
+      "id": 5
+    },
+    {
+      "idFilme": "2",
+      "sala": "2",
+      "horario": "19",
+      "data": "30",
+      "dublado": "sim",
+      "d3": "nao",
+      "id": 6
+    }
+  ],
+  "filme": 
+  [
+    {
+      "titulo": "Avatar",
+      "idade": "14",
+      "duracao": "90",
+      "genero": "Ação",
+      "id": 1
+    },
+    {
+      "titulo": "Exorcista",
+      "idade": "10",
+      "duracao": "120",
+      "genero": "Terror",
+      "id": 2
+    }
+  ]
+}
