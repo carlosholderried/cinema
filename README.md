@@ -25,3 +25,6 @@ Segunda tela:
 - O usuario consegue escolher uma data através de um menu de selecionar.
 
 - Uma vez que a data seja escolhida, aparece na tela todas as sessões que exibem o filme escolhido na data escolhida.
+
+![image](https://user-images.githubusercontent.com/93011560/224827811-5f5a8f88-65f6-4f13-be44-ea9c084a746d.png)
+
