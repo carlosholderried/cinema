@@ -1,9 +1,6 @@
 <template>
   <body>
     <HeaderComp />
-    <!-- <div class="hpImage"> 
-    <img src="https://i.giphy.com/media/6pJNYBYSMFod2/giphy.webp" alt="">
-  </div>  -->
     <h1>Catálogo de filmes</h1>
     <div class="cinema">
       <table border="1">
@@ -14,6 +11,7 @@
           <td>Duração</td>
           <td>Gênero</td>
         </tr>
+        <!-- for para exibir o array de filmes na tela  -->
         <tr v-for="item in Movies" :key="item.id">          
             <td><img class="image"
                 :src="item.imageUrl"
@@ -40,9 +38,6 @@ import axios from 'axios';
 axios.baseURL = 'http://192.168.0.6:7087/'
 const axiosRequest = require('axios')
 
-//axios.defaults.headers.common['Authorization'] = AUTH_TOKEN;
-//axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
-
 export default {
   name: 'HomePage',
   data() {
@@ -54,12 +49,8 @@ export default {
     HeaderComp
   },
   methods: {
-    // async Loaddate(){
-    //   let result = await axios.
-    //   get(axios.baseURL+"Movies")        
-    //   this.Movies=result.data;
-    // }
-    LoadDate() {
+// função com promise para pegar da API os filmes cadastrados
+    loadDate() {
       axiosRequest
       axios.get(axios.baseURL + "Movies")
         .then((response) => {
@@ -73,7 +64,7 @@ export default {
     }
   },
   mounted() {
-    this.LoadDate();
+    this.loadDate();
   }
 }
 </script>
@@ -95,7 +86,7 @@ body {
   text-decoration: none;
   text-align: center;
   margin-right: 5px;
-  margin-left: 300px;
+  margin-left: 180px;
   overflow: hidden;
 }
 </style>

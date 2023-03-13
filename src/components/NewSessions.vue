@@ -1,7 +1,7 @@
 <template>
   <body>
     <HeaderComp />
-
+<!-- mostra a imagem e o titulo do filme escolhido na tela anterior -->
     <br>  
     <td><img class="sessionImage"
                 :src="Movie.imageUrl"
@@ -9,6 +9,7 @@
     </td>
     <h1>{{Movie.title }}</h1>
 
+    <!-- menu select para o usuario escolher a data -->
     <p>Selecione a data</p>
       <select v-model="picked" @click="loadData()">
           <option disabled value="">Selecione o filme</option>
@@ -25,6 +26,7 @@
         <td>3D</td>
         <td>Comprar</td>
       </tr>
+      <!-- for para exibir as sessões na tela -->
       <tr v-for="item in Sessions" :key="item.id">
         <td>{{ item.hour }}</td>
         <td>{{ item.date }}</td>
@@ -67,6 +69,7 @@ export default {
   },
 
   methods: {
+    //Função com promise para pegar da API sessões que exibem o filme escolhido na data escolhida 
     loadData() {
       console.log(this.picked)
       this.strMouth =this.picked.getMonth()+1;
@@ -85,6 +88,7 @@ export default {
           console.log(error)
         })
     },
+    //função com promise que pega informações do filme escolhido na tela anterior
     loadMovie() {
       axios.get(axios.baseURL + "Movies/" + this.$route.params.id)
         .then((response) => {
@@ -96,6 +100,7 @@ export default {
         })
         .finally
     },
+    //função que soma dias na data atual e retorna o resultado 
     addDays(days) {
       this.date = new Date();
       this.date.setDate(this.date.getDate() + days);
@@ -103,6 +108,7 @@ export default {
     }
   },
   mounted() {
+    //for para popular o array de datas usando a função de somar dias na data atual
     for (var i = 0; i < 7; i++) {
       this.dias.push(this.addDays(i))
       console.log(this.dias[i])
