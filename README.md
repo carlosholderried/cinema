@@ -2,7 +2,7 @@
 
 
 ### Objetivo
-Conectar com uma api e mostrar sessões especificas de acordo com a escolha de filme e data do usuario.
+Conectar com uma API e mostrar sessões especificas de acordo com a escolha de filme e data do usuario.
 
 ### Funcionamento
 Primeira tela: mostra uma lista de filmes com botões ao lado para que o usuario possa escolher um deles.
