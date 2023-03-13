@@ -1,4 +1,4 @@
-# Projeto de uma interface simples para cinema   
+# Projeto de uma interface simples para cinema em Vuejs   
 
 
 ### Objetivo
