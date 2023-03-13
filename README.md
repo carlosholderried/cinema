@@ -15,6 +15,8 @@ Conectar com uma API e mostrar sessões especificas de acordo com a escolha de f
 
 ### Funcionamento
 Primeira tela: mostra uma lista de filmes com botões ao lado para que o usuario possa escolher um deles.
+![image](https://user-images.githubusercontent.com/93011560/224826329-61d4534a-1482-46ed-8c26-830a3edbe4e2.png)
+
 
 Segunda tela:
 
