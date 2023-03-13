@@ -1,5 +1,13 @@
-# Projeto de uma interface simples para cinema em Vuejs   
+# Projeto de uma interface simples para cinema
 
+### Tecnologias utilizadas 
+- Vue js 3
+- Node js e npm versão 6.12.1
+- Vue js CLI
+- Vue routing package
+- Visual Code Studio
+- Postman para testes
+- Axios Package
 
 ### Objetivo
 Conectar com uma API e mostrar sessões especificas de acordo com a escolha de filme e data do usuario.
