@@ -6,6 +6,7 @@ Conectar com uma API e mostrar sessões especificas de acordo com a escolha de f
 
 ### Funcionamento
 Primeira tela: mostra uma lista de filmes com botões ao lado para que o usuario possa escolher um deles.
+
 Segunda tela:
 
 -o usuario pode ver o nome e a foto do filme que escolheu na tela anterior.
